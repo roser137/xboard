@@ -4,7 +4,7 @@ exports.config =
     javascripts:
       joinTo:
         'app.js': /^app/
-        'vendor.js' /^vendor/
+        'vendor.js': /^vendor/
       order:
         before: [
           'vendor'
